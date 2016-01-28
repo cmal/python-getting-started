@@ -4,45 +4,53 @@
 {% block content %}
 
 <div class="jumbotron text-center">
-  <div class="container">
-    <a href="/" class="lang-logo">
-      <img src="{% static 'lang-logo.png'%}">
-    </a>
-    <h1>Getting Started with Python on Heroku</h1>
-    <p>This is a sample Python application deployed to Heroku. It's a reasonably simple app - but a good foundation for understanding how to get the most out of the Heroku platform.</p>
-    <a type="button" class="btn btn-lg btn-default" href="https://devcenter.heroku.com/articles/getting-started-with-python"><span class="glyphicon glyphicon-flash"></span> Getting Started with Python</a>
-    <a type="button" class="btn btn-lg btn-primary" href="https://github.com/heroku/python-getting-started"><span class="glyphicon glyphicon-download"></span> Source on GitHub</a>
-  </div>
+    <div class="container">
+	<a href="/" class="lang-logo">
+	    <img src="{% static 'timg2.jpg'%}">
+	</a>
+	<h1>BlueSky挽回爱情团队</h1>
+	<p>我们致力于为世界上最多人口的国家，提供免费的恋爱咨询和挽回服务。如果你有爱情方面的难题，欢迎联系我们。挽回，就是这么简单。我们致力于为世界上最多人口的国家，提供免费的恋爱咨询和挽回服务。如果你有爱情方面的难题，欢迎联系我们。挽回，就是这么简单。
+	</p>
+	<a type="button" class="btn btn-lg btn-default" href="#"><span class="glyphicon glyphicon-calendar"></span> 公开课程</a>
+	<a type="button" class="btn btn-lg btn-primary" href="#"><span class="glyphicon glyphicon-pushpin"></span> 专业辅导</a>
+    </div>
 </div>
 <div class="container">
-  <div class="alert alert-info text-center" role="alert">
-    To deploy your own copy, and learn the fundamentals of the Heroku platform, head over to the <a href="https://devcenter.heroku.com/articles/getting-started-with-python" class="alert-link">Getting Started with Python on Heroku</a> tutorial.
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-md-6">
-      <h3><span class="glyphicon glyphicon-info-sign"></span> How this sample app works</h3>
-      <ul>
-        <li>This app was deployed to Heroku, either using Git or by using <a href="https://github.com/heroku/python-getting-started">Heroku Button</a> on the repository.</li>
+    <div class="alert alert-info text-center" role="alert">
+	如果你有爱情方面的难题，欢迎联系我们。挽回，就是这么简单。
+    </div>
+    <hr>
+    <div class="row">
+	<div class="col-md-6">
+	    <h3><span class="glyphicon glyphicon-info-sign"></span> 我们是做什么的</h3>
+	    <ul>
+		<li>我们成立于1988年，北京。</li>
 
-        <li>When Heroku received the source code, it grabbed all the dependencies in the <a href="https://github.com/heroku/python-getting-started/blob/master/requirements.txt">requirements.txt file</a>.</li>
-        <li>The platform then spins up a dyno, a lightweight container that provides an isolated environment in which the slug can be mounted and executed.</li>
-        <li>You can scale your app, manage it, and deploy over <a href="https://addons.heroku.com/">150 add-on services</a>, from the Dashboard or CLI.</li>
-        <li>Check out the <a href="https://devcenter.heroku.com/articles/getting-started-with-python">Getting Started</a> guide to learn more!</li>
-      </ul>
+		<li>我们致力于为xxx提供xxx服务。</li>
+		<li>欢迎收听我们在喜马拉雅上的<a href="#">课程</a>。</li>
+		<li>截止到2016年1月，我们已经成功地帮助了233对伴侣挽回了他们的爱情。我们已经邀请了23对伴侣来分享他们的<a href="#">成功案例</a>。</li>
+		<li>我们出版了x本书籍。</li>
+	    </ul>
+	</div>
+	<div class="col-md-6">
+	    <h3><span class="glyphicon glyphicon-link"></span> 团队成员</h3>
+	    <ul>
+		<li><a href="#">BlueSky</a></li>
+		<li><a href="#">塔塔</a></li>
+		<li><a href="#">迷藏</a></li>
+		<li><a href="#">爸爸</a></li>
+		<li><a href="#">妈妈</a></li>
+	    </ul>
+	</div>
+    </div> <!-- row -->
+    <div class="alert alert-info text-center" role="alert">
+	如果你希望 bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla.
     </div>
-    <div class="col-md-6">
-      <h3><span class="glyphicon glyphicon-link"></span> Helpful Links</h3>
-      <ul>
-        <li><a href="https://www.heroku.com/home">Heroku</a></li>
-        <li><a href="https://devcenter.heroku.com/">Heroku Dev Center</a></li>
-        <li><a href="https://devcenter.heroku.com/articles/getting-started-with-python">Getting Started with Python on Heroku</a></li>
-        <li><a href="https://devcenter.heroku.com/articles/django-app-configuration">Configuring Django Apps for Heroku</a></li>
-      </ul>
+</div>
+<div class="container">
+    <div class="panel-footer">
+	Copyright (C) 2016-2016 BlueSky挽回爱情团队 版权所有 沪ICP备XXXXXX号
+	<span class="pull-right"><a href="#">建议 </a>|<a href="#"> 联系我们</a></span>
     </div>
-  </div> <!-- row -->
-   <div class="alert alert-info text-center" role="alert">
-    Please do work through the Getting Started guide, even if you do know how to build such an application.  The guide covers the basics of working with Heroku, and will familiarize you with all the concepts you need in order to build and deploy your own apps.
-  </div>
 </div>
 {% endblock %}
