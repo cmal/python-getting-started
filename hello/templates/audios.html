@@ -12,14 +12,14 @@
 	    <tr>
 		<td>{{ audio.id }}</td>
 		<td>{{ audio.name }}</td>
-		<td>{{ audio.create_date }}</td>
+		<td>{{ audio.create_time }}</td>
 		<td>
 		    <audio controls="controls">  
 			<source src="{{ audio.url }}" /> 
 		    </audio>
 		</td>
 	    </tr>
-	    {% end %}
+	    {% endfor %}
 	</table>
     </div>
 </div>
