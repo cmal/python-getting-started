@@ -18,3 +18,6 @@ def db(request):
 
     return render(request, 'db.html', {'greetings': greetings})
 
+def audio(request):
+    audios = Audio.objects.all()
+    return render(request, 'audios.html', {'audios': audios})
